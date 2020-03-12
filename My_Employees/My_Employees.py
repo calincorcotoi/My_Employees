@@ -3,7 +3,7 @@ from PyQt5.QtGui import QPixmap, QFont
 import sys,os
 import sqlite3
 from PIL import Image
-
+##test
 con = sqlite3.connect("employees.db")
 cur = con.cursor()
 defaultImg = "images/person.png"
